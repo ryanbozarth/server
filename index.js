@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 
 const router = require('./router');
 
-// DB setup
+// db setup
 
 // App setup
 app.use(morgan('combined'));
