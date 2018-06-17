@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: heF3gwDt63NBI//f2lXyOo7gw6GjXghaAPyTMVdM+0Zk3FA46aLBpkikjFTRxZXp0YxGhW94+Mqe0P5Z6/+d9pbb0wyfK8CuCt/0BxVxmwqFZFWFrA36zxjYtt9Aa7056hS5YS5Cw1jDfdclNYkeTU8yecSAM1hS0VwhmWhq2zl2nhpz72QcuOeP0NhJS87VGHwFm2o2CvBFx6Oh3fZZFQ6bZV9SaZxFsH8hMVU/YtwJh7Xg8/j5k16WQgJnuzB8afE/5DPXR5i4JuJKeW/yHrqvW1MsmBDBqZ4dLyw74L0MnGZqgFM/rAfZ+JR/87i7dhdRumUL84crTvsRzW3loNngPEWeNfuJ7VfCIXbLBTXjzYwlHkexzfRVEQq2VV6DOye74TcArKF/xEkdIvBO2fIYfS0E+wZRAbc1ukISF1W/Gvmj4QahiOx/LQtHDEBkPhusze2jGmXikp9++nNsmlY28fx3j3myKBBamS1bCWjkMHeCXp/mgA2ANHJrO50pWmTHpoIpMvSalZ7HGiteiQ0gOpTNBTP6iLUTv1YyPvXlxUocELCgY4t1ftrYWkklOHhbWyDC1N7+yRFdvDozezWYU/7x5ZM+AbUqwz3G5kR2Cuekvuo5w7Gws5MNrehyYTj9YDGgtEM130PhHbJx/FoReAl9ps30mvv8Pq+1aTA=
+  app: vast-wildwood-60333
+  on:
+    repo: ryanbozarth/server
